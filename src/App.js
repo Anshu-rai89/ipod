@@ -145,7 +145,7 @@ class App extends React.Component
                 <div className='screen'>
                 {
                     // rendering diffrent component based on conditions
-                     showCoponent?showCardflow?<CardFlow /> 
+                     showCoponent?showCardflow?<CardFlow handleMenuClick={this.handleMenuClick}/> 
                      :showMusic?<Music  handleMenuClick={this.handleMenuClick}/> 
                      :showGame? <Game handleMenuClick={this.handleMenuClick}/> 
                      :<Settings  handleMenuClick={this.handleMenuClick}/> 
