@@ -41,7 +41,8 @@ class Music  extends React.Component
                     context.setState({
                        
                         showSongs:true,
-                        showArtist:false
+                        showArtist:false,
+                        showPlaylist:false
                     })
                 }
                 else if(distance>85 && distance<177 )
@@ -66,7 +67,8 @@ class Music  extends React.Component
                     context.setState({
                        
                         showPlaylist:true,
-                        showArtist:false
+                        showArtist:false,
+                        showSongs:false
                     })
                 }
 

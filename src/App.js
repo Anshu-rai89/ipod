@@ -50,6 +50,7 @@ class App extends React.Component
                     context.setState({
                         showCardflow:true,
                         showMusic:false,
+                        showSetting:false
                        
                     })
                 }
@@ -103,6 +104,7 @@ class App extends React.Component
                         showGame:true,
                         showSetting:false,
                         showMusic:false,
+                        showCardflow:false
                        
                     });
                 }
